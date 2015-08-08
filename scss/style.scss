@@ -7,7 +7,9 @@
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
 
-
+body {
+    overflow-x: hidden;
+}
 li {
     list-style: none;
 }
@@ -85,7 +87,7 @@ a {
     visibility: visible;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
     transition: all .3s ease;
-    transform: translateX(200px);
+    transform: translateX(205px);
     overflow: hidden;
     
     &--open {
@@ -118,4 +120,3 @@ a {
 p {
     margin-top: 0;
 }
-
