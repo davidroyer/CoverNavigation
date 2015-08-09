@@ -138,7 +138,7 @@ a {
   -webkit-transform: translateX(205px);
       -ms-transform: translateX(205px);
           transform: translateX(205px);
-  overflow: hidden;
+  overflow: auto;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -160,7 +160,6 @@ a {
   text-align: right;
   padding-right: 30px;
   height: 100vh;
-  overflow-y: auto;
   margin: 0;
 }
 .nav__list-item {
