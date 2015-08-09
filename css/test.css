@@ -30,6 +30,9 @@
   border-color: #B6B6B6;
 }
 
+html {
+	overflow-x: hidden;
+}
 body {
   overflow-x: hidden;
 }
