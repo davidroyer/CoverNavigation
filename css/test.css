@@ -144,12 +144,14 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+	margin-top: 80px;
 }
+
 .nav--open {
   	-webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-	margin: 0;
+
 	padding: 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
