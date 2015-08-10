@@ -249,6 +249,8 @@ html.navigation-is-open  {
 body.navigation-is-open  {
   overflow: hidden;
   -webkit-overflow: hidden;
+  position: fixed;
+  width: 100%
 }
 
 /*.nav__list-item {
