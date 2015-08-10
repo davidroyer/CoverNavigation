@@ -271,3 +271,8 @@ body {
   overflow-y: hidden;
   -webkit-overflow-y: hidden;
 }
+
+body {
+  width: 100%;
+  height: 100%;
+}
