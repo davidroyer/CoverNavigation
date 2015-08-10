@@ -262,3 +262,7 @@ body.navigation-is-open  {
 .nav {
   padding: 4.5em 1.5em 6.875em 1.5em;
 }
+
+body {
+  position: relative;
+}
