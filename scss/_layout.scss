@@ -1,0 +1,19 @@
+.main {
+    background: white;
+    height: 100%;
+    position: relative;
+    top: 0;
+    z-index: 20;
+    background: white;
+    height: 100vh;
+    position: relative;
+    top: 80px;
+    z-index: 40;
+    width: 100%;
+    padding: 100px;
+
+    &--open {
+        overflow-y: hidden;
+        -webkit-overflow-y: hidden;
+    }
+}

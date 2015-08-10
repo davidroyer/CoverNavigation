@@ -1,7 +1,7 @@
 (function() {
     
     
-    var navToggle = $('.nav-trigger');
+    var navToggle = $('.nav__trigger');
     
     navToggle.on('click', openNavDrawer);
     
