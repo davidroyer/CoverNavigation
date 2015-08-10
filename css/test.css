@@ -238,7 +238,7 @@ transform: rotate(-45deg);*/
 }
 
 .nav__list {
-  initial;
+  height: initial;
 }
 
 .navigation-is-open html {
