@@ -246,7 +246,7 @@ html.navigation-is-open  {
   -webkit-overflow: hidden;
 }
 
-.navigation-is-open body {
+body.navigation-is-open  {
   overflow: hidden;
   -webkit-overflow: hidden;
 }
