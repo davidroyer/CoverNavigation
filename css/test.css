@@ -113,11 +113,11 @@ transform: rotate(-45deg);*/
 
 .nav__list {
   padding-bottom: 30px;
-  overflow-y: scroll;
+  overflow-y: initial;
 }
 
 .nav {
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 
 
