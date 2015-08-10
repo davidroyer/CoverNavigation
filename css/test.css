@@ -128,3 +128,8 @@ transform: rotate(-45deg);*/
 .nav__list {
   height: 100%;
 }
+
+.nav__list-item:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
