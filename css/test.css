@@ -134,3 +134,9 @@ transform: rotate(-45deg);*/
     padding-bottom: 0;
     margin-bottom: 0;
 }
+
+.main {
+  position: relative;
+  top: 0;
+  padding-top: 100px;
+}
