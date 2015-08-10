@@ -126,6 +126,10 @@ transform: rotate(-45deg);*/
     margin: 10px 0;
 }
 
+.nav__link {
+  padding-right: 6px;
+}
+
 .nav__list {
   height: 100%;
 }
