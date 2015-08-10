@@ -104,6 +104,8 @@ transform: rotate(-45deg);*/
 
 /* TESTING */
 
+
+/* ********   WORKS    ******** */
 .nav {
   padding: 4.5em 1.5em 1.875em 1.5em;
   margin-top: 0;
@@ -115,4 +117,14 @@ transform: rotate(-45deg);*/
 
 .nav {
   overflow-y: scroll;
+}
+
+/* ********   END OF WORKS    ******** */
+
+.nav__list-item {
+    margin: 10px 0;
+}
+
+.nav__list {
+  height: 100%;
 }
