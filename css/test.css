@@ -266,3 +266,8 @@ body.navigation-is-open  {
 body {
   position: relative;
 }
+
+.main-open {
+  overflow-y: hidden;
+  -webkit-overflow-y: hidden;
+}
