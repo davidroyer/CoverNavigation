@@ -267,7 +267,7 @@ body {
   position: relative;
 }
 
-.main-open {
+.main--open {
   overflow-y: hidden;
   -webkit-overflow-y: hidden;
 }
