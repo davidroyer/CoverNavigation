@@ -8,6 +8,7 @@
     function openNavDrawer(event) {
         event.preventDefault();	
         $('body').toggleClass('navigation-is-open');
+        $('html').toggleClass('navigation-is-open');
 		$('.nav').toggleClass('nav--open');
 		$('.main').toggleClass('main--open');
     }
