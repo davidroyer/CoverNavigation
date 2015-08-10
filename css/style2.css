@@ -132,7 +132,7 @@ a {
   height: 100vh;
   bottom: 0;
   visibility: visible;
- /* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);*/
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
   -webkit-transition: all .3s ease;
           transition: all .3s ease;
   -webkit-transform: translateX(205px);
@@ -198,4 +198,6 @@ html, body, .nav .main .header, .nav__list {
 	box-sizing: border-box;
 }
 
+
+/* FOR TEST.HTML PAGE */
 
