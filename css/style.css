@@ -174,9 +174,10 @@ body,
   background: white;
   height: 100vh;
   position: relative;
+  top: 80px;
   z-index: 40;
   width: 100%;
-  padding: 150px 60px;
+  padding: 150px 50px;
 }
 
 /* OPEN MENU */
