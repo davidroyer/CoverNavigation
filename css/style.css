@@ -178,10 +178,6 @@ body,
   width: 100%;
   padding: 150px 60px;
 }
-.main--open {
-  overflow-y: hidden;
-  -webkit-overflow-y: hidden;
-}
 
 /* OPEN MENU */
 .navigation-is-open .nav__icon {
@@ -205,18 +201,6 @@ body,
 }
 .navigation-is-open .nav__trigger {
   background-color: white;
-}
-
-html.navigation-is-open {
-  overflow: hidden;
-  -webkit-overflow: hidden;
-}
-
-body.navigation-is-open {
-  overflow: hidden;
-  -webkit-overflow: hidden;
-  position: fixed;
-  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
