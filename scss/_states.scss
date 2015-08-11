@@ -1,37 +1,37 @@
 
 /* OPEN MENU */
 
-.navigation-is-open .nav__trigger {
-    /*  transform: rotate(180deg);*/
-}
-
-.navigation-is-open .nav__icon {
-    background-color: transparent;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-}
-
-.navigation-is-open .nav__icon::before {
-    height: 3px;
-    -webkit-transform: rotate(-315deg);
-    -ms-transform: rotate(-315deg);
-    transform: rotate(-315deg);
-    /*transform: rotate(45deg);
-transform: rotate(-45deg);*/
-    /*  transform-origin: right top;*/
+.navigation-is-open {
     
-    top: 0;
+
+    // NAV ICON
+    & .nav__icon {
+    
+        background-color: transparent;
+        -webkit-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+
+        &::before {
+            height: 3px;
+            @include rotate(-135);
+            top: 0;
+        }
+        
+        &::after {
+            height: 3px;
+            @include rotate(135); 
+            top: 0;
+        }
+
+    }
+    
+
+    // NAV TRIGGER
+    & .nav__trigger {
+
+        background-color: white;
+    }
 }
-
-.navigation-is-open .nav__icon::after {
-    height: 3px;
-    -webkit-transform: rotate(315deg);
-    -ms-transform: rotate(315deg);
-    transform: rotate(315deg);
-    top: 0;
-}
-
-
 
 
 

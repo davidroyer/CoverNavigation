@@ -1,0 +1,11 @@
+@mixin rotate($amount) {
+	-webkit-transform: rotate($amount + deg);
+	-ms-transform: rotate($amount + deg);
+	transform: rotate($amount + deg);  
+}
+
+@mixin translateX($amount) {
+	-webkit-transform: translateX($amount);
+	-ms-transform: translateX($amount);
+	transform: translateX($amount);
+}
