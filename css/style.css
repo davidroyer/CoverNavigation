@@ -174,10 +174,9 @@ body,
   background: white;
   height: 100vh;
   position: relative;
-  top: 80px;
   z-index: 40;
   width: 100%;
-  padding: 100px;
+  padding: 150px 60px;
 }
 .main--open {
   overflow-y: hidden;
