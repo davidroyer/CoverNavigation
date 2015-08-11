@@ -103,8 +103,8 @@ body,
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .nav__icon::before {
   content: '';
@@ -114,8 +114,8 @@ body,
   position: absolute;
   top: -6px;
   right: 0;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .nav__icon::after {
   content: '';
@@ -125,8 +125,8 @@ body,
   position: absolute;
   top: 6px;
   right: 0;
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 .nav__list {
   text-align: right;
@@ -144,8 +144,6 @@ body,
   color: #3A3C48;
 }
 
-/* ********   END OF WORKS    ******** */
-/* TESTING SCROLL AND HEIGHTS */
 @media (min-width: 1px) and (max-width: 600px) and (orientation: landscape) {
   .nav {
     padding: 1.5em 1.5em 9.875em 1.5em;
