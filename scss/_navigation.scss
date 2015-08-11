@@ -8,7 +8,6 @@
     width: 200px;
     height: 100vh;
     bottom: 0;
-    visibility: visible;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.46), 0 2px 10px 0 rgba(0, 0, 0, 0.42);
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -19,30 +18,14 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top: 80px;
     padding: .5em 1.5em 6.875em 1.5em;
-    margin-top: 0;
+  
     
 
     // WHEN NAV IS OPEN
     &--open {
         
         @include translateX(0);
-    }
-
-    
-    // NAV HOLDER
-    &__holder {
-        
-        background-color: #4D4F5A;
-        width: 40px;
-        height: 40px;
-        position: fixed;
-        z-index: 9999;
-        border-radius: 50%;
-        top: 20px;
-        right: 25px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     }
 
 
